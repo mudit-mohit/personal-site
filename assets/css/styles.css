@@ -139,6 +139,10 @@ img{
     background-color: var(--second-color);
     transition: .5s;
   }
+
+  .footer p {
+    font-size: 13px;
+  }
 }
 .nav__item{
   margin-bottom: var(--mb-4);
@@ -340,6 +344,12 @@ img{
   font-size: var(--normal-font-size);
   cursor: pointer;
   margin-left: auto;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* ===== FOOTER =====*/
@@ -350,6 +360,15 @@ img{
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
+
+.footer p a:hover {
+  color: aliceblue;
+}
+
+.footer p a:active {
+  color: purple;
+}
+
 .footer__title{
   font-size: 2rem;
   margin-bottom: var(--mb-4);
@@ -362,6 +381,8 @@ img{
   color: #fff;
   margin: 0 var(--mb-2)
 }
+
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
