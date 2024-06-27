@@ -293,6 +293,9 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
+.skills__python{
+  width: 95%;
+}
 .skills__html{
   width: 95%;
 }
@@ -302,8 +305,20 @@ img{
 .skills__js{
   width: 65%;
 }
-.skills__ux{
+.skills__numpy{
   width: 85%;
+}
+.skills__opencv{
+  width: 65%;
+}
+.skills__mongodb{
+  width: 90%;
+}
+.skills__mysql{
+  width: 80%;
+}
+.skills__nodejs{
+  width: 75%;
 }
 .skills__img{
   border-radius: .5rem;
